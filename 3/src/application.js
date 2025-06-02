@@ -2,7 +2,7 @@
 
 const displayLaptops = (filteredLaptops) => {
     const resultDiv = document.querySelector('.result');
-    resultDiv.innerHTML = ''; // Очищаем контейнер
+    resultDiv.innerHTML = ''; 
 
     if (filteredLaptops.length === 0) {
         return;
